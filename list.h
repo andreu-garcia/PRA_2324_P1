@@ -1,7 +1,9 @@
 #ifndef LIST_H
 #define LIST_H
 
-#include <stdexcept>  
+
+#include <ostream>
+using namespace std;
 
 template <typename T>
 class List {
